@@ -1,0 +1,22 @@
+name: fitness_tracker
+description: "A comprehensive Flutter fitness tracker app demonstrating UI implementation, state management, and Material Design patterns."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # WHAT YOU LEARN: intl package provides internationalization
+  # and date/time formatting capabilities
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

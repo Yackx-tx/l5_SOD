@@ -12,13 +12,9 @@ class Shape {
   Shape(this.name);
 
   // Method to be overridden
-  void draw() {
-    print('Drawing a $name');
-  }
+  void draw();
 
-  void area() {
-    print('Calculating area of $name');
-  }
+  void area();
 }
 
 // Child class 1: Circle
